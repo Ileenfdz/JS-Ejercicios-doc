@@ -9,6 +9,8 @@
 // import { getAllVowels } from './modules/getAllVowels9.js';
 // import { countAllVowels } from './modules/countAllVowels10.js';
 // import { countHowManyVowels } from './modules/howManyVowels11.js';
+// import { division } from './modules/divisibleBy12.js';
+import { division } from './modules/divisibleByPT213.js';
 
 // const btnInputsSum = document.getElementById('btnInputsSum');
 // const btnInputsGreater = document.getElementById('btnInputsGreaterThan');
@@ -18,6 +20,8 @@
 // const btnInputPhrase = document.getElementById('btnInputPhrase');
 // const btnInputCountVowels = document.getElementById('btnInputCountVowels');
 // const btnInputHowManyVowels = document.getElementById('btnInputHowManyVowels');
+// const btnInputDivisible = document.getElementById('btnInputDivisible');
+const btnInputDivisiblePt2 = document.getElementById('btnInputDivisiblePt2');
 
 export function app(){
     // welcome();
@@ -35,3 +39,5 @@ app();
 // btnInputPhrase.addEventListener('click', getAllVowels);
 // btnInputCountVowels.addEventListener('click', countAllVowels);
 // btnInputHowManyVowels.addEventListener('click', countHowManyVowels);
+// btnInputDivisible.addEventListener('click', division);
+btnInputDivisiblePt2.addEventListener('click', division);

@@ -25,7 +25,8 @@ The Javascript exercises in google docs --> https://docs.google.com/document/d/1
 
 -11-Write a program that asks for a phrase and writes how many times does each vowel appear.
 
--12-
+-12-Write a program that asks for a single number and show if it's divisible by 2, 3, 5 or 7.
+
 -13-
 -14-
 -15-

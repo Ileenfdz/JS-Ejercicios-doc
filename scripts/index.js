@@ -8,6 +8,7 @@
 // import { getVowel } from './modules/getVowelA8.js';
 // import { getAllVowels } from './modules/getAllVowels9.js';
 // import { countAllVowels } from './modules/countAllVowels10.js';
+// import { countHowManyVowels } from './modules/howManyVowels11.js';
 
 // const btnInputsSum = document.getElementById('btnInputsSum');
 // const btnInputsGreater = document.getElementById('btnInputsGreaterThan');
@@ -16,6 +17,7 @@
 // const btnInputPhrase = document.getElementById('btnInputPhrase');
 // const btnInputPhrase = document.getElementById('btnInputPhrase');
 // const btnInputCountVowels = document.getElementById('btnInputCountVowels');
+// const btnInputHowManyVowels = document.getElementById('btnInputHowManyVowels');
 
 export function app(){
     // welcome();
@@ -32,3 +34,4 @@ app();
 // btnInputPhrase.addEventListener('click', getVowel);
 // btnInputPhrase.addEventListener('click', getAllVowels);
 // btnInputCountVowels.addEventListener('click', countAllVowels);
+// btnInputHowManyVowels.addEventListener('click', countHowManyVowels);

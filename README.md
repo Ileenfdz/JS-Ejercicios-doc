@@ -23,8 +23,8 @@ The Javascript exercises in google docs --> https://docs.google.com/document/d/1
 
 -10-Write a program that asks for a phrase and writes how many vowels are in it.
 
--11-
-Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
+-11-Write a program that asks for a phrase and writes how many times does each vowel appear.
+
 -12-
 -13-
 -14-

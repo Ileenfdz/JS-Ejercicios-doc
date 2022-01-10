@@ -27,9 +27,12 @@ The Javascript exercises in google docs --> https://docs.google.com/document/d/1
 
 -12-Write a program that asks for a single number and show if it's divisible by 2, 3, 5 or 7.
 
--13-
--14-
--15-
+-13-Add an exercise to the last one, that'll tell us which of the 4 is actually divisible (have to say everyone of them)
+
+-14-Write a program that writes in screen the divs of the new num.
+
+-15-Write a program that writes on screen the common divs of 2 new data.
+
 -16-
 -17-
 -18-

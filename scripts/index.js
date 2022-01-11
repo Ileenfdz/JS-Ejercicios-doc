@@ -13,7 +13,8 @@
 // import { division } from './modules/divisibleByPT213.js';
 // import { div } from './modules/makeADiv.js';
 // import { twoDivs } from './modules/twoDivs15.js';
-import { numPrimo } from './modules/numPrimo16.js';
+// import { numPrimo } from './modules/numPrimo16.js';
+import { getAge } from "./age17.js";
 
 // const btnInputsSum = document.getElementById('btnInputsSum');
 // const btnInputsGreater = document.getElementById('btnInputsGreaterThan');
@@ -27,7 +28,9 @@ import { numPrimo } from './modules/numPrimo16.js';
 // const btnInputDivisiblePt2 = document.getElementById('btnInputDivisiblePt2');
 // const btnInputDiv = document.getElementById('btnInputDiv');
 // const btnInputTwoDivs = document.getElementById('btnInputTwoDivs');
-const btnInputNumPrimo = document.getElementById('btnInputNumPrimo');
+// const btnInputNumPrimo = document.getElementById('btnInputNumPrimo');
+const btnInputGetAge = document.getElementById('btnInputGetAge');
+
 
 export function app(){
     // welcome();
@@ -50,4 +53,5 @@ app();
 // btnInputDivisiblePt2.addEventListener('click', division);
 // btnInputDiv.addEventListener('click', div);
 // btnInputTwoDivs.addEventListener('click', twoDivs);
-btnInputNumPrimo.addEventListener('click', numPrimo);
+// btnInputNumPrimo.addEventListener('click', numPrimo);
+btnInputGetAge.addEventListener('click', getAge);

@@ -15,8 +15,8 @@
 // import { twoDivs } from './modules/twoDivs15.js';
 // import { numPrimo } from './modules/numPrimo16.js';
 // import { getAge } from "./modules/age17.js";
-
-import { getGrade } from "./modules/grades18.js";
+// import { getGrade } from "./modules/grades18.js";
+import { calculateDNI } from "./modules/calculateDNI19.js";
 
 // const btnInputsSum = document.getElementById('btnInputsSum');
 // const btnInputsGreater = document.getElementById('btnInputsGreaterThan');
@@ -32,7 +32,8 @@ import { getGrade } from "./modules/grades18.js";
 // const btnInputTwoDivs = document.getElementById('btnInputTwoDivs');
 // const btnInputNumPrimo = document.getElementById('btnInputNumPrimo');
 // const btnInputGetAge = document.getElementById('btnInputGetAge');
-const btnInputGetGrade = document.getElementById('btnInputGetGrade');
+// const btnInputGetGrade = document.getElementById('btnInputGetGrade');
+const btnInputGetDNI = document.getElementById('btnInputGetDNI');
 
 
 export function app(){
@@ -58,4 +59,5 @@ app();
 // btnInputTwoDivs.addEventListener('click', twoDivs);
 // btnInputNumPrimo.addEventListener('click', numPrimo);
 // btnInputGetAge.addEventListener('click', getAge);
-btnInputGetGrade.addEventListener('click', getGrade);
+// btnInputGetGrade.addEventListener('click', getGrade);
+btnInputGetDNI.addEventListener('click', calculateDNI);
